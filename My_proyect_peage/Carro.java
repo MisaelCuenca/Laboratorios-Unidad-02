@@ -16,7 +16,7 @@ public class Carro  extends Vehiculo{
 	}
       
 	
-	void imprimir() {
+	public void imprimir() {
 		System.out.println("placa"+placa);
 		System.out.println("Valor peaje"+valorPeaje);
 	}
